@@ -2,7 +2,7 @@ const express = require('express');
 const http = require('http');
 const socketIO = require('socket.io');
 const mongoose = require('mongoose');
-const tradeRoutes = require('./routes/routes/trade');
+const tradeRoutes = require('./routes/trade');
 const cargoRoutes = require('./routes/cargo');
 const inventoryRoutes = require('./routes/inventory');
 
